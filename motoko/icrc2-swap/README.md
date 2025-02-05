@@ -9,7 +9,6 @@
 ```
 $ dfx deploy swap --network=playground
 ```
-
 ------------------------------------------------------
 
 ICRC-2 Swap is a simple canister demonstrating how to safely work with ICRC-2
