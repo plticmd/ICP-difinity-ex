@@ -63,6 +63,11 @@ To authorize an identity to upload files, it must be authorized first:
 dfx canister call photo-storage authorize '(principal "535yc-uxytb-gfk7h-tny7p-vjkoe-i4krp-3qmcl-uqfgr-cpgej-yqtjq-rqe")'
 ```
 
+```bash　（my principal）
+dfx canister call photo-storage authorize '(principal "zwyhe-oudma-frwzf-zj5hn-axogg-kywee-rloww-o2ecy-56vjl-deq6m-4qe")'
+```
+
+
 Before deployment on ICP, the hardcoded identity (defined in `src/App.js`) should be replaced by an authentication
 method such as Internet Identity.
 

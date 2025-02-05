@@ -14,6 +14,6 @@ actor Counter {
 
   // Increment the value of the counter.
   public func inc() : async () {
-    counter += 1;
+    counter += 10;
   };
 };

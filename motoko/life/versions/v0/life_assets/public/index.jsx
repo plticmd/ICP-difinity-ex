@@ -9,8 +9,7 @@ class Life extends React.Component {
     super(props);
     this.state = {
       grid: 'Grid',
-      running: false,
-      stableState: ''
+      running: false
     };
   }
 
@@ -32,17 +31,12 @@ class Life extends React.Component {
     }
   }
 
-  async doViewState() {
-    const text = await life.stableState();
-    this.setState({ ...this.state, stableState: text });
-  }
-
   async doPause() {
     this.state.running = false;
   }
 
   render() {
-      return (
+    return (
         <div className="nes-container with-title is-centered life-title" >
           <p className="title">Live... from DFINITY!</p>
 	  <p> <pre className="life-grid"> {this.state.grid} </pre> </p>
@@ -55,21 +49,10 @@ class Life extends React.Component {
               <button className="nes-btn" disabled={!this.state.running}
 		      onClick={() => this.doPause()}>Pause</button>
             </div>
-	    <details>
-	      <summary>Details</summary>
-              <p>
-		<button className="nes-btn"
-			onClick={() => this.doViewState()}>View State</button>
-	      </p>
-	      <p>
-		<textarea className="life-details" cols="80" rows = "8" value =
-			  {this.state.stableState} />
-	      </p>
-	   </details>
 	  </p>
         </div>
-      );
+    );
   }
-};
+}
 
 render(<Life />, document.getElementById('app'));

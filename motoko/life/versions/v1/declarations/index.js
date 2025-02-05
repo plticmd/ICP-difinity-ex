@@ -17,7 +17,7 @@ export const createActor = (canisterId, options = {}) => {
   console.warn(`Deprecation warning: you are currently importing code from .dfx. Going forward, refactor to use the dfx generate command for JavaScript bindings.
 
 See https://internetcomputer.org/docs/current/developer-docs/updates/release-notes/ for migration instructions`);
-  const agent = options.agent || new HttpAgent({ ...options.agentOptions });
+  const agent = options.agent || new HttpAgent.create({ ...options.agentOptions });
   
   // Fetch root key for certificate validation during development
   if (process.env.DFX_NETWORK !== "ic") {
@@ -39,4 +39,4 @@ See https://internetcomputer.org/docs/current/developer-docs/updates/release-not
  * A ready-to-use agent for the life canister
  * @type {import("@dfinity/agent").ActorSubclass<import("./life.did.js")._SERVICE>}
  */
-export const life = createActor(canisterId);
+export const life = (canisterId);

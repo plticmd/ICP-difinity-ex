@@ -45,28 +45,31 @@ class Life extends React.Component {
       return (
         <div className="nes-container with-title is-centered life-title" >
           <p className="title">Live... from DFINITY!</p>
-	  <p> <pre className="life-grid"> {this.state.grid} </pre> </p>
-	  <p>
+	        {/* <p>  */}
+            <pre className="life-grid"> {this.state.grid} </pre> 
+          {/* </p> */}
+	  {/* <p> */}
             <div style={{ "margin": "30px" }}>
               <button className="nes-btn" disabled={this.state.running}
-		      onClick={() => this.doStep()}>Step</button>
+		              onClick={() => this.doStep()}>Step</button>
               <button className="nes-btn" disabled={this.state.running}
-		      onClick={() => this.doRun()}>Run</button>
+		              onClick={() => this.doRun()}>Run</button>
               <button className="nes-btn" disabled={!this.state.running}
-		      onClick={() => this.doPause()}>Pause</button>
+		              onClick={() => this.doPause()}>Pause</button>
             </div>
-	    <details>
-	      <summary>Details</summary>
-              <p>
-		<button className="nes-btn"
-			onClick={() => this.doViewState()}>View State</button>
-	      </p>
-	      <p>
-		<textarea className="life-details" cols="80" rows = "8" value =
-			  {this.state.stableState} />
-	      </p>
-	   </details>
-	  </p>
+            <details>
+              <summary>Details
+                    <p>
+                      <button className="nes-btn"
+                        onClick={() => this.doViewState()}>View State</button>
+                    </p>
+                    <p>
+                      <textarea className="life-details" cols="80" rows = "8" value =
+                          {this.state.stableState} />
+                    </p>
+              </summary>
+            </details>
+	  {/* </p> */}
         </div>
       );
   }

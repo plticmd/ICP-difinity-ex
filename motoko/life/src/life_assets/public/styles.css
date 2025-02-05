@@ -9,11 +9,15 @@
 }
 
 .life-grid {
-    background-color: lightblue;
+    background-color: rgb(28, 117, 147);
     line-height: 1;
     width: max-content;
     height: max-content;
     display: inline-grid;
     border-style: solid;
-    font-size: xx-small;
+    font-size: small;
+}
+
+.life-details {
+    width: 75vw;
 }

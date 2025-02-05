@@ -1,4 +1,3 @@
-import Debug = "mo:base/Debug";
 // local imports
 import Random = "Random";
 import State = "State";
@@ -6,22 +5,9 @@ import Grid = "Grid";
 
 actor Life {
 
-  stable var state : State.State =
-    do {
-      let rand = Random.new();
-      State.new(64, func (i, j) { rand.next() % 2 == 1 });
-    };
-
-  system func preupgrade() {
-    state := cur.toState();
-  };
-
-  system func postupgrade() {
-    Debug.print("upgraded to v2!");
-  };
-
-  public query func stableState() : async Text {
-    debug_show(cur.toState());
+  let state = do {
+    let rand = Random.new();
+    State.new(64, func (i, j) { rand.next() % 2 == 1 });
   };
 
   var cur = Grid.Grid(state);
@@ -41,3 +27,4 @@ actor Life {
   };
 
 };
+
