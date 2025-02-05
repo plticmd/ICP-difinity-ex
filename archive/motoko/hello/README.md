@@ -7,9 +7,6 @@
 [NotionPage]
 (https://www.notion.so/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
 
-## Overview 
-This sample demonstrates a simple dapp consisting of two canisters:
-
 -   backend = `src/hello`
 -   frontend = `src/hello_assets`
 
@@ -27,6 +24,8 @@ npm start
 ```
 
 
+## Overview 
+This sample demonstrates a simple dapp consisting of two canisters:
 
 It is the dapp equivalent of the ubiquitous 'Hello, world!' and can be seen running [on the IC](https://6lqbm-ryaaa-aaaai-qibsa-cai.ic0.app/).
 
