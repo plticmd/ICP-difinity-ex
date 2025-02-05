@@ -1,6 +1,4 @@
----
-keywords: [beginner, motoko, hello]
----
+
 
 # Hello, world!
 
