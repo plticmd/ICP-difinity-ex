@@ -19,7 +19,11 @@ See [motoko/life](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/
 ```
 $ dfx deploy <canister-name>: 
 ```
-キャニスターをローカルへデプロイします。キャニスターをローカルへデプロイする場合、ローカル レプリカが実行されている必要があります。 dfx start --backgroundで開始します。
+キャニスターをローカルへデプロイします。キャニスターをローカルへデプロイする場合、ローカル レプリカが実行されている必要があります。 
+```
+dfx start --background
+```
+で開始します。
 ```
 $ dfx deploy <canister-name> --network=playground: 
 ```
