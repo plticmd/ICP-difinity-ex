@@ -1,7 +1,7 @@
 # Counter
 
 [NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
-（ローカル,playground,メインネットへデプロイ）
+（ローカル,playground,メインネットへデプロイする方法）
 
 ![alt text](<counter.png>)
 --------------------------------------------------
