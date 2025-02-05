@@ -1,5 +1,7 @@
 # Counter
 
+[NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
+
 This example demonstrates a counter application. It uses an orthogonally persistent counter variable to store an arbitrary precision natural number that represents the current value of the counter.
 
 By using the Motoko keyword stable when declaring the counter variable, the value of this variable will automatically be preserved whenever your canister code is upgraded. Without the stable keyword, a variable is deemed flexible, and its value is reinitialized on every canister upgrade, i.e. whenever new code is deployed to the canister.
