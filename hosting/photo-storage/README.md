@@ -2,6 +2,7 @@
 
 
 [NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
+(ローカル, playgroundへデプロイ)
 
 ![alt text](<photostorage.png>)
 
