@@ -10,9 +10,23 @@
 ## Overview 
 This sample demonstrates a simple dapp consisting of two canisters:
 
--   A simple backend canister, `hello`, implementing the logic of the application.
+-   backend = `src/hello`
+-   frontend = `src/hello_assets`
 
--   A simple frontend asset canister, `hello_assets`, serving the assets of the dapp’s web user interface.
+```
+cd hello
+dfx start --background
+```
+```
+npm install
+```
+
+```
+dfx deploy
+npm start
+```
+
+
 
 It is the dapp equivalent of the ubiquitous 'Hello, world!' and can be seen running [on the IC](https://6lqbm-ryaaa-aaaai-qibsa-cai.ic0.app/).
 
