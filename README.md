@@ -10,3 +10,6 @@ See motoko/life, motoko/counter, motoko/icrc2-swap, hosting/photo-storage, archi
 <img width="1280" alt="スクリーンショット 2025-02-05 4 56 23" src="https://github.com/user-attachments/assets/71baefa8-0391-4684-a6aa-697a683ca910" />
 
 <img width="1280" alt="スクリーンショット 2025-02-05 8 52 15" src="https://github.com/user-attachments/assets/05f532ca-b15f-4bb9-9183-17a1d8904d94" />
+
+注意）
+.dfxファイルは gitignore なのでデプロイ作業をしてWASM生成してください。
