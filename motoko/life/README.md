@@ -1,10 +1,11 @@
-# Game of life
+# life
+[NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
 
 ![alt text](<life.png>)
 
 ### キャニスターID:Deployed canister URL
 Frontend canister via browser ( src/life_assets )
- - http://127.0.0.1:4943/?canisterId=by6od-j4aaa-aaaaa-qaadq-cai**
+- http://127.0.0.1:4943/?canisterId=by6od-j4aaa-aaaaa-qaadq-cai**
 - http://by6od-j4aaa-aaaaa-qaadq-cai.localhost:4943/
 
 Backend canister via Candid interface ( src/life )
@@ -13,35 +14,34 @@ Backend canister via Candid interface ( src/life )
 canister ID は.envファイルへ格納する設定となっていた。
 .envファイルは作成されていないのでルートディレクトリへ作成した。
 
-、、、
+```
 npm install --save-dev dotenv-cli 
-、、、
+```
 
 を実行し、以下のコードを格納した。（ここで公開していると意味が無い😥）
 
-、、、
+```
 CANISTER_ID="by6od-j4aaa-aaaaa-qaadq-cai"
 CANISTER_ID_LIFE="b77ix-eeaaa-aaaaa-qaada-cai" 
 CANISTER_ID_LIFE_ASSETS="by6od-j4aaa-aaaaa-qaadq-cai" 
-、、、
+```
 
 v1 へのアップグレード
-、、、
+```
 mv src versions/v0
 mv versions/v1 src
 dfx deploy
-、、、
+```
 この段階でdeclarationsフォルダが重複している？と思い、ルートディレクトリ（srcだったかも）へ移動させた。（これが間違いなのか関係無いのか分かりません。）
 
 v2へのアップグレード
-、、、
+```
 mv src versions/v1
 mv versions/v2 src
 dfx deploy
-、、、
+```
 
-
-
+-----------------------------------------------
 
 
 
