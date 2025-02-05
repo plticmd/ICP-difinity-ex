@@ -23,7 +23,7 @@ dfx deploy
 npm start
 ```
 
-
+-------------------------------------------------
 ## Overview 
 This sample demonstrates a simple dapp consisting of two canisters:
 
