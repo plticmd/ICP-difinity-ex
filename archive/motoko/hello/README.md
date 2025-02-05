@@ -4,8 +4,6 @@
 
 ![alt text](<hello-frontend.png>) ![alt text](<hello-backend.png>)
 
-[View this sample's code on GitHub](https://github.com/dfinity/examples/tree/master/motoko/hello)
-
 [NotionPage]
 (https://www.notion.so/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
 
