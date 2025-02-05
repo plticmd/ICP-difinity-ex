@@ -13,3 +13,22 @@ See [motoko/life](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/
 
 注意）
 .dfxファイルは gitignore なのでデプロイ作業をしてWASM生成してください。
+
+
+### 🌼 deploy方法4種
+```
+$ dfx deploy <canister-name>: 
+```
+キャニスターをローカルへデプロイします。キャニスターをローカルへデプロイする場合、ローカル レプリカが実行されている必要があります。 dfx start --backgroundで開始します。
+```
+$ dfx deploy <canister-name> --network=playground: 
+```
+キャニスターをplaygroundへデプロイします。pllayroundへキャニスターを設置するのは無料ですが、キャニスターは一時的なものであり20 分後に削除されます。
+```
+$ dfx deploy <canister-name> --network=ic: 
+```
+キャニスターをメインネットへデプロイします。メインネットへキャニスターをデプロイするには、[サイクルの](https://internetcomputer.org/docs/current/developer-docs/gas-cost)コストがかかります。
+```
+$ dfx deploy --network=ic: 
+```
+プロジェクトdfx.jsonファイル内のすべてのキャニスターをメインネットへデプロイします。
