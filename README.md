@@ -1,7 +1,7 @@
 ## The way of rapid deproy Sample canisters 
 #### to Local & Playground
 
-See motoko/life, motoko/counter, motoko/icrc2-swap, hosting/photo-storage, archive/motoko/hello.
+See [motoko/life](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/life), [motoko/counter](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/counter), [motoko/icrc2-swap](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/icrc2-swap), [hosting/photo-storage](https://github.com/plticmd/ICP-difinity-ex/tree/master/hosting/photo-storage), [archive/motoko/hello](https://github.com/plticmd/ICP-difinity-ex/tree/master/archive/motoko/hello)
 
 [NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
 
