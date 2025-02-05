@@ -2,6 +2,7 @@
 
 [NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
 
+![alt text](<counter.png>)
 --------------------------------------------------
 
 This example demonstrates a counter application. It uses an orthogonally persistent counter variable to store an arbitrary precision natural number that represents the current value of the counter.
