@@ -1,5 +1,9 @@
 # ICRC-2 swap
 
+[NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
+
+------------------------------------------------------
+
 ICRC-2 Swap is a simple canister demonstrating how to safely work with ICRC-2
 tokens. It handles depositing, swapping, and withdrawing ICRC-2 tokens.
 
