@@ -1,4 +1,4 @@
-## The way of rapid deproy Sample canisters 
+## The way of rapid deproy Sample canisters {
 #### to Local & Playground.
 
 See [motoko/life](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/life), [motoko/counter](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/counter), [motoko/icrc2-swap](https://github.com/plticmd/ICP-difinity-ex/tree/master/motoko/icrc2-swap), [hosting/photo-storage](https://github.com/plticmd/ICP-difinity-ex/tree/master/hosting/photo-storage), [archive/motoko/hello](https://github.com/plticmd/ICP-difinity-ex/tree/master/archive/motoko/hello),
@@ -37,7 +37,7 @@ $ dfx deploy --network=ic:
 ```
 プロジェクトdfx.jsonファイル内のすべてのキャニスターをメインネットへデプロイします。
 
-
+}
 -----------------------
 
 ### サイクル
