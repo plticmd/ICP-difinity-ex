@@ -1,6 +1,10 @@
 # Counter
 
 [NotionPage](https://petal-tarsal-2b3.notion.site/Sample-Canister-Deploy-190e519d441a80b1a942d2b1b8283023)
+
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/25828c3e-25fc-4161-9573-10e3da43bc25" />
+
+
 （ローカル,playground,メインネットへデプロイ）
 
 ![alt text](<counter.png>)
