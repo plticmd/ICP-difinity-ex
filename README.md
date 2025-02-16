@@ -36,3 +36,39 @@ $ dfx deploy <canister-name> --network=ic:
 $ dfx deploy --network=ic: 
 ```
 プロジェクトdfx.jsonファイル内のすべてのキャニスターをメインネットへデプロイします。
+
+
+-----------------------
+
+### サイクル
+
+キャニスター スマート コントラクトは、サイクルを燃焼させることで、消費されたリソース (ストレージ、メッセージング、実行等) の支払いを行います。開発者は、[dfx](https://internetcomputer.org/docs/current/developer-docs/defi/cycles/converting_icp_tokens_into_cycles)を使用して ICP トークンをサイクルへ変換できます。
+
+まず ICPトークン を取引所等で入手し、アカウントへ転送します。ICP トークンを転送するアカウントの確認は以下のコマンド実行。
+
+```
+dfx ledger account-id
+```
+ICP元帳上のアカウント番号が表示されます。
+
+5～10 米ドル相当のトークンがあれば十分です。
+
+ICP 元帳アカウントへ ICP トークンをいくつか取得したら、次のコマンドを使用して残高を確認できます。
+```
+dfx ledger --network ic balance
+```
+
+(結果 : 0.00000000 ICP)
+
+ICP トークンを取得したら以下のコマンドでサイクルへ変換します。
+```
+dfx cycles convert --amount AMOUNT --network ic
+```
+このワークフローは、Cycles 元帳機能を利用します。将来、Cycles ウォレットは dfx から削除されます。
+
+以下のコマンドでサイクルのバランスを確認します。
+```
+dfx cycles balance --network ic
+```
+以下のような内容が出力されます。
+6.951 TC (trillion cycles
